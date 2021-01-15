@@ -1,0 +1,30 @@
+1:
+  hostname: "Host: www.shreyaghate.com"
+  filename: "html-files/shreyaghate/index.html"
+  username: "shreyaghate"
+  password: "b63a97a1efa4914f812b8951d38dc74a"
+2:
+  hostname: "Host: www.shreyaghate.com:8091"
+  filename: "html-files/shreyaghate/index.html"
+  username: "shreyaghate"
+  password: "b63a97a1efa4914f812b8951d38dc74a" #sghate123
+3:
+  hostname: "Host: www.shreyag.com"
+  filename: "html-files/shreyag/index.html"
+  username: "shreyag"
+  password: "d012a58ff8a668d2d97354857352c3a9" 
+4:
+  hostname: "Host: www.shreyag.com:8091"
+  filename: "html-files/shreyag/index.html"
+  username: "shreyag"
+  password: "d012a58ff8a668d2d97354857352c3a9" #sg123
+5:
+  hostname: "Host: www.shreya.com"
+  filename: "html-files/shreya/index.html"
+  username: "shreya"
+  password: "7812e8b74f6837fba66f86fe86688a2b" 
+6:
+  hostname: "Host: www.shreya.com:8091"
+  filename: "html-files/shreya/index.html"
+  username: "shreya"
+  password: "7812e8b74f6837fba66f86fe86688a2b" #s123

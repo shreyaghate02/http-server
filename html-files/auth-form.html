@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style> 
+Body {
+        font-family: Calibri, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+  }
+button { 
+       background-color: purple; 
+       width: 100%;
+        color: white; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid black; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  
+ .container { 
+        padding: 25px; 
+    } 
+</style> 
+</head>  
+<body>  
+    <center> <h1> Authenticate Yourself Here </h1> </center> 
+    
+    <form id="form" method="POST" action="http://www.authserver.com:8000">
+        <div class="container"> 
+            <label>Username: </label> 
+            <input type="text" placeholder="Enter Username" name="recv_username" required>
+            <label>Password: </label> 
+            <input type="password" placeholder="Enter Password" name="recv_password" required>
+            <button type="submit">Login</button>            
+        </div> 
+    </form>   
+</body>   
+</html>
+
+ 
